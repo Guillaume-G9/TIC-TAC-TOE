@@ -66,6 +66,11 @@ button {
     margin-bottom: 1.5%;
 }
 
+button:hover {
+    background-color: rgb(12, 192, 192);
+    transition: all 300ms;
+}
+
 .box {
     margin-top: -4%;
     color: black;
@@ -79,6 +84,7 @@ button {
     background-color: white;
     width: 10.2vw;
     height: 22vh;
+    cursor: grab;
 }
 
 .orange {
